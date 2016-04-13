@@ -27,6 +27,7 @@ docker run -it --rm -v ~/:/dist -e VERSION=1.5 medallia/jq-plugins-builder
 ## Available environment variables
 
 - `VERSION` : REQUIRED / Version of your package
+- `ITERATION` : OPTIONAL / Iteration of your package
 
 ## Limitation
 
