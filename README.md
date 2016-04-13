@@ -16,12 +16,12 @@ docker build -t medallia/jq-plugins-builder .
 - Compile the packages
 
 ```
-docker run -it --rm -v ~/:/dist -e VERSION=1.5 medallia/jq-plugins-builder
+docker run -it --rm -v ~/:/dist -e VERSION=1.5 -e ITERATION=1 medallia/jq-plugins-builder
 ```
 
 - This will give two packages
 
-- `jq_1.5_amd64.deb`
+- `jq_1.5-1_amd64.deb`
 - `jq-1.5-1.x86_64.rpm`
 
 ## Available environment variables
